@@ -180,6 +180,7 @@ body a {
 .footernav_left {
     float: left;
     padding: 5px;
+    word-spacing: 10px;
 }
 
 .footernav_right {

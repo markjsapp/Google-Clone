@@ -9,8 +9,14 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x316.png">
-    <link rel="shortcut icon" href="images/favicon-48x48.png">
+    <link rel="shortcut icon" href="favicon-48x48.png">
       <title>Google</title>
+    <!-- Search button script -->
+      <script>
+        function DemoFunction(){
+          window.alert("This is just a demo! Go to the real Google.com!");
+        }
+      </script>
 </head>
 <body>
     <header>
@@ -52,8 +58,8 @@
     </div>
     <!--Search Buttons-->
     <div class="buttons">
-        <input class="buttons1" type="submit" value="Google Search" id="google-search">
-        <input class="buttons1" type="submit" value="I'm Feeling Lucky" id="im-feeling-lucky">
+        <input class="buttons1" type="submit" value="Google Search" id="google-search" onclick="DemoFunction()">
+        <input class="buttons1" type="submit" value="I'm Feeling Lucky" id="im-feeling-lucky" onclick="DemoFunction()">
     </div>
 </main>
   <footer>
